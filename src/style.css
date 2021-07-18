@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kumbh+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+	width: 97%;
+    margin: 0 auto;
+	background-color:black;
+    /*transition: background-color.4s ease-in-out;*/
+	text-align:right;
+	padding:20px;
+    position: sticky;
+    top: 0;
+}
+#logo-topo{
+   font:1.5rem 'Kaushan Script', sans-serif;
+   float: left;
+   color:white;
+}
+
+a{
+	font:1.2rem 'Kumbh Sans', sans-serif;
+    text-decoration: none;
+   
+}
+.a-menu{
+   margin-right:30px; 
+   font-weight:bold;
+}
+
+.a-menu:link, .a-menu:visited{
+	color:white;
+}
+.a-menu:hover, .a-menu:active{
+	color:#000;
+}
+
+header{
+  margin: 0 auto;
+  width:100%;
+  height: 215px;
+}
+/*Banner transição*/
+#slider{
+    flex-direction: center;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+
+}
+
+
+#slider img{
+    position: absolute;
+    opacity: 0;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    
+    transition: opacity 800ms;
+}
+#slider img.item{
+    opacity: 1;
+}
+
+
+h2{
+    
+ font:2.3rem 'Kaushan Script', cursive;
+  color:black;
+  margin: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    width:100%;
+    height: 230px;
+}
+/*.section-container-elements*/
+
+#section-container-elements p{
+    font:1.2rem 'Kumbh Sans', sans-serif; 
+	text-align: center;
+	margin-bottom: 10px;
+	color: gray;
+    padding-bottom:15px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    padding: .6rem;
+   
+}
+  
+.card{
+    background-color: #FFF;
+    margin: 10px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px #777;
+    transition: 0.3s; 
+    text-align:center;
+  }
+.card:hover{
+    box-shadow: 0 8px 16px #777;
+  }
+.card-content{
+    padding: 10px;
+    display:flex;
+    text-align:center;
+     justify-content: center;
+  }
+
+h3{
+	font:1.1rem 'Kumbh Sans', cursive;
+	color:#000;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+}
+/*Form*/
+#section-cadastro{
+    background-color:#F8D335;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    
+}
+form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+input
+{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+    background-color:#ffffff;
+    border-radius: 13px;
+    color:#959595;
+}
+label, input
+{
+    font: 1.2rem 'Roboto', cursive;
+}
+label{
+    text-align: justify;
+}
+input[type = "submit"]{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+footer{
+    background-color:#000;
+    padding: 18px;
+    width: 97.5%;
+    margin: 0 auto;
+}
+  
+footer p{
+    font:1.2rem 'Kumbh Sans', sans-serif; 
+    text-align: center;
+    color:#fff;
+}
+  
